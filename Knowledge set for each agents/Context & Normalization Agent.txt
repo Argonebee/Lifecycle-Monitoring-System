@@ -1,0 +1,203 @@
+CONTEXT & NORMALIZATION – KNOWLEDGE BASE
+
+1. ROLE OF BIOLOGICAL CONTEXT
+Physiological and behavioral data cannot be interpreted correctly without biological context. Reference ranges, thresholds, and expected patterns vary widely based on species, age, developmental stage, and physical characteristics. This agent is responsible for selecting the correct biological model so downstream agents perform accurate and meaningful analysis.
+
+Contextual normalization ensures that identical raw values are interpreted differently when appropriate (e.g., infant vs adult, cat vs dog, reptile vs mammal).
+
+----------------------------------------------------------------
+
+2. SUBJECT CLASSIFICATION DIMENSIONS
+
+This agent classifies subjects using the following dimensions:
+
+- Species (human or animal)
+- Species subtype (mammal, bird, reptile)
+- Age group or developmental stage
+- Size category (where applicable)
+- Metabolic profile
+- Environmental dependency (e.g., ectothermic vs endothermic)
+
+----------------------------------------------------------------
+
+3. HUMAN CONTEXT CLASSIFICATION
+
+3.1 HUMAN AGE CATEGORIES
+
+Humans are classified into the following age groups for normalization:
+
+- Newborn: 0–1 month
+- Infant: 1–12 months
+- Toddler: 1–3 years
+- Child: 4–10 years
+- Teen: 11–17 years
+- Adult: 18–64 years
+- Older Adult: 65+ years
+
+Each age group has distinct baseline values for:
+- Heart rate
+- Respiratory rate
+- Sleep duration
+- Activity expectations
+
+----------------------------------------------------------------
+
+3.2 HUMAN DEVELOPMENTAL CONSIDERATIONS
+
+- Children naturally have higher heart and respiratory rates than adults
+- Sleep duration decreases with age
+- Activity levels vary with growth stage and social context
+- Older adults may have reduced activity and altered sleep patterns
+
+Normalization must adjust thresholds accordingly.
+
+----------------------------------------------------------------
+
+4. ANIMAL CONTEXT CLASSIFICATION
+
+4.1 SPECIES GROUPING
+
+Animals are grouped into major biological categories:
+
+- Mammals
+- Birds
+- Reptiles
+
+Each group has fundamentally different physiology and behavioral norms.
+
+----------------------------------------------------------------
+
+4.2 MAMMAL CONTEXT
+
+Mammalian normalization considers:
+- Body size (small vs large mammals)
+- Metabolic rate (small mammals have higher rates)
+- Predator vs prey behavior
+- Diurnal vs nocturnal patterns
+
+Examples:
+- Small mammals (cats, rabbits) have higher heart rates
+- Large mammals (horses, cows) have lower heart rates
+- Carnivores typically sleep more than herbivores
+
+----------------------------------------------------------------
+
+4.3 BIRD CONTEXT
+
+Bird normalization accounts for:
+- Extremely high metabolic rates
+- Elevated body temperature
+- Stress sensitivity
+- Unihemispheric sleep patterns
+
+Birds exhibit:
+- Very high heart rates
+- Rapid respiratory rates
+- Strong sensitivity to environmental disturbance
+
+----------------------------------------------------------------
+
+4.4 REPTILE CONTEXT
+
+Reptiles are ectothermic (cold-blooded).
+
+Normalization factors include:
+- Ambient temperature
+- Basking behavior
+- Reduced metabolic consistency
+
+Physiological values are valid only when interpreted relative to environmental temperature.
+
+----------------------------------------------------------------
+
+5. AGE AND SIZE NORMALIZATION FACTORS
+
+Normalization adjusts reference ranges using:
+- Age-based scaling (infant vs adult)
+- Size-based scaling (small vs large animals)
+- Developmental maturity
+
+Example:
+A heart rate of 120 BPM may be:
+- Normal for an infant
+- High for an adult
+- Low for a small bird
+
+----------------------------------------------------------------
+
+6. ACTIVITY AND STATE CONTEXT
+
+Interpretation depends on current state:
+- Resting
+- Sleeping
+- Active
+- Stressed
+- Recovering from exertion
+
+Normalization rules:
+- Elevated vitals during activity may be normal
+- Reduced activity during sleep is expected
+- Persistent abnormalities across states are concerning
+
+----------------------------------------------------------------
+
+7. TEMPORAL CONTEXT
+
+The agent must consider:
+- Time of day
+- Circadian rhythm
+- Recent activity or feeding
+- Acute vs chronic patterns
+
+Short-term deviations may be normal; long-term deviations require escalation.
+
+----------------------------------------------------------------
+
+8. BASELINE PERSONALIZATION PRINCIPLE
+
+Each subject has an individual baseline.
+- Sudden deviation from baseline is more significant than absolute deviation
+- Normalization should prefer individual historical data when available
+- Population averages are used only when personal baselines are unavailable
+
+----------------------------------------------------------------
+
+9. CONTEXT SELECTION LOGIC
+
+Context selection follows this priority order:
+1. Species
+2. Age or developmental stage
+3. Size or metabolic category
+4. Activity state
+5. Environmental conditions
+
+Incorrect context selection can lead to false alerts or missed abnormalities.
+
+----------------------------------------------------------------
+
+10. ERROR HANDLING AND FALLBACK CONTEXT
+
+If context data is missing:
+- Use safest default assumptions
+- Prefer conservative thresholds
+- Flag uncertainty for downstream agents
+
+If conflicting metadata exists:
+- Prioritize explicit user-provided metadata
+- Prefer recent and consistent data
+
+----------------------------------------------------------------
+
+11. LIMITATIONS OF CONTEXT NORMALIZATION
+
+- Biological variation exists within groups
+- Exact normalization is not always possible
+- Environmental and emotional factors may not be fully observable
+
+Normalization improves accuracy but does not eliminate uncertainty.
+
+----------------------------------------------------------------
+
+12. SAFETY AND DISCLAIMER
+
+This knowledge base enables contextual normalization for analytical accuracy only. It does not perform diagnosis or decision-making and should be used as a supporting component within a multi-agent system.

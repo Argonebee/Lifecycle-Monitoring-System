@@ -1,0 +1,417 @@
+/* IBM Carbon Design System Inspired Styles */
+:root {
+    --primary-blue: #0f62fe;
+    --primary-blue-hover: #0353e9;
+    --text-primary: #161616;
+    --text-secondary: #525252;
+    --background: #ffffff;
+    --background-alt: #f4f4f4;
+    --border-subtle: #e0e0e0;
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-2xl: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: var(--text-primary);
+    background-color: var(--background-alt);
+    line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--background);
+    border-bottom: 1px solid var(--border-subtle);
+    padding: var(--spacing-sm) 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.logo::before {
+    content: "◆";
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: var(--spacing-lg);
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links a {
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 400;
+    transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+    color: var(--primary-blue);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--primary-blue);
+    padding: 0.75rem 1.5rem;
+    border: 1px solid var(--primary-blue);
+    border-radius: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+/* Header Section */
+.dashboard-header {
+    background: linear-gradient(135deg, #f4f4f4 0%, #ffffff 100%);
+    padding: var(--spacing-lg) var(--spacing-lg);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.dashboard-header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.dashboard-header p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    max-width: 720px;
+}
+
+/* Main Dashboard Layout */
+.dashboard-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: var(--spacing-lg);
+    align-items: start;
+}
+
+/* Card Styles */
+.card {
+    background-color: var(--background);
+    border: 1px solid var(--border-subtle);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.card-title::before {
+    content: "▸";
+    color: var(--primary-blue);
+    font-size: 1.5rem;
+}
+
+.card-content {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+}
+
+/* Left Column */
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Instruction Panel */
+.instruction-panel {
+    background-color: #e8f4ff;
+    border-left: 4px solid var(--primary-blue);
+}
+
+.example-input {
+    background-color: var(--background);
+    border: 1px solid var(--border-subtle);
+    padding: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    border-radius: 2px;
+}
+
+.example-input strong {
+    color: var(--primary-blue);
+    display: block;
+    margin-bottom: var(--spacing-xs);
+}
+
+.example-input p {
+    margin: var(--spacing-xs) 0;
+    color: var(--text-secondary);
+}
+
+/* Info Cards */
+.info-list {
+    list-style: none;
+    margin-top: var(--spacing-md);
+}
+
+.info-list li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--border-subtle);
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+}
+
+.info-list li:last-child {
+    border-bottom: none;
+}
+
+.info-list li::before {
+    content: "•";
+    color: var(--primary-blue);
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.tips-list {
+    list-style: none;
+    margin-top: var(--spacing-md);
+}
+
+.tips-list li {
+    padding: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    background-color: var(--background-alt);
+    border-left: 3px solid var(--primary-blue);
+    font-size: 0.875rem;
+}
+
+/* Right Column - Chat Container */
+.right-column {
+    position: sticky;
+    top: calc(var(--spacing-lg) + 60px);
+}
+
+.chat-container {
+    background-color: var(--background);
+    border: 1px solid var(--border-subtle);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, #0353e9 100%);
+    color: white;
+    padding: var(--spacing-md) var(--spacing-lg);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.chat-header h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: var(--spacing-xs);
+}
+
+.chat-header p {
+    font-size: 0.875rem;
+    opacity: 0.9;
+}
+
+.chat-body {
+    flex: 1;
+    padding: 0;
+    background-color: var(--background);
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#wxo-chat-root {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    flex: 1;
+}
+
+/* Watson Orchestrate chat embed: render inline (no floating popup) */
+#wxo-chat-root,
+#wxo-chat-root > * {
+    max-width: 100%;
+}
+
+/* The embedded app ships Carbon layout padding; remove it to avoid blank space */
+#wxo-chat-root .cds--content,
+#wxo-chat-root main.cds--content,
+#wxo-chat-root .app__main-content-wrapper {
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 100% !important;
+}
+
+/* Disable the floating container so the chat sits inside our panel */
+#wxo-chat-root .wxo-float-container {
+    position: static !important;
+    inset: auto !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: transparent !important;
+}
+
+#wxo-chat-root .wxo-float {
+    position: static !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* We already show a page header; hide the widget's popup header controls */
+#wxo-chat-root .wxo-float-header {
+    display: none !important;
+}
+
+#wxo-chat-root .wxo-float-body,
+#wxo-chat-root .wxoLiteWrapper,
+#wxo-chat-root .WxOChatMessageWrapper__container {
+    height: 100% !important;
+}
+
+#wxo-chat-root .wxo-float-body {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 100% !important;
+}
+
+#wxo-chat-root .wxoLiteWrapper {
+    background: transparent !important;
+}
+
+/* Ensure message area scrolls and composer stays pinned to bottom */
+#wxo-chat-root .messages-component {
+    flex: 1 !important;
+    min-height: 0 !important;
+}
+
+#wxo-chat-root .messageContent {
+    max-height: 100% !important;
+    overflow: auto !important;
+}
+
+#wxo-chat-root .chat-bar-container {
+    margin-top: auto !important;
+}
+
+/* Status Badge */
+.status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background-color: #24a148;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: var(--spacing-xs);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .dashboard-container {
+        grid-template-columns: 1fr;
+    }
+
+    .right-column {
+        position: static;
+    }
+
+    .chat-container {
+        min-height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-header h1 {
+        font-size: 2rem;
+    }
+
+    .nav-links {
+        gap: var(--spacing-sm);
+    }
+
+    .card {
+        padding: var(--spacing-md);
+    }
+}

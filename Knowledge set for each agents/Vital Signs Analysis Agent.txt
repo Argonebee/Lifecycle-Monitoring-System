@@ -1,0 +1,179 @@
+VITAL SIGNS ANALYSIS – KNOWLEDGE BASE
+
+1. OVERVIEW OF VITAL SIGNS
+Vital signs are fundamental physiological measurements used to assess the basic functioning of the body. The primary vital signs considered by this agent are:
+- Heart Rate (HR): number of heartbeats per minute (BPM)
+- Body Temperature (BT): core body temperature
+- Respiratory Rate (RR): number of breaths per minute
+
+Normal and abnormal ranges vary significantly based on age, species, size, metabolic rate, activity level, and environmental conditions. Interpretation must always consider context.
+
+----------------------------------------------------------------
+
+2. HUMAN VITAL SIGNS REFERENCE RANGES
+
+2.1 HEART RATE (HUMANS – RESTING)
+
+Age Group and Normal Ranges (BPM):
+- Newborn (0–1 month): 100–160
+- Infant (1–12 months): 90–150
+- Toddler (1–3 years): 80–140
+- Child (4–10 years): 70–120
+- Teen (11–17 years): 60–100
+- Adult (18–64 years): 60–100
+- Older Adult (65+ years): 60–100
+
+Abnormal Classifications:
+- Bradycardia: Resting HR below 60 BPM (may be normal in trained athletes)
+- Tachycardia: Resting HR above 100 BPM
+
+Critical Heart Rate Levels:
+- Severe Bradycardia: <40 BPM
+- Sustained Tachycardia at rest: >130 BPM
+- Extreme values (>180 BPM or <30 BPM) may indicate life-threatening conditions
+
+----------------------------------------------------------------
+
+2.2 BODY TEMPERATURE (HUMANS)
+
+Temperature Classification (°C):
+- Normal: 36.1–37.2
+- Mild elevation: 37.3–38.0
+- Fever: 38.1–39.0
+- High fever: >39.0
+- Hypothermia: <35.0
+
+Critical Temperature Levels:
+- Severe hypothermia: ≤32.0°C
+- Hyperthermia: ≥40.0°C
+
+Body temperature can be influenced by infection, environment, physical exertion, dehydration, and metabolic disorders.
+
+----------------------------------------------------------------
+
+2.3 RESPIRATORY RATE (HUMANS)
+
+Normal Respiratory Rate (breaths per minute):
+- Newborn: 30–60
+- Infant: 30–50
+- Toddler: 24–40
+- Child: 18–30
+- Teen: 12–20
+- Adult: 12–20
+
+Abnormal Conditions:
+- Bradypnea: abnormally slow breathing
+- Tachypnea: abnormally rapid breathing
+
+Critical Respiratory Rates (Adults):
+- Less than 8 breaths/min
+- Greater than 30 breaths/min
+
+----------------------------------------------------------------
+
+3. ANIMAL VITAL SIGNS REFERENCE RANGES
+
+3.1 MAMMALS
+
+Heart Rate (BPM):
+- Elephant: 25–35
+- Horse: 28–44
+- Cow: 48–84
+- Dog (large breed): 60–100
+- Dog (small breed): 100–140
+- Cat: 140–220
+- Rabbit: 130–325
+
+Body Temperature (°C):
+- Dog: 38.3–39.2
+- Cat: 38.1–39.2
+- Horse: 37.5–38.5
+- Cow: 38.0–39.3
+- Rabbit: 38.5–40.0
+
+Respiratory Rate (breaths per minute):
+- Dog: 10–35
+- Cat: 20–30
+- Horse: 8–16
+- Cow: 10–30
+- Rabbit: 30–60
+
+Smaller mammals generally have faster heart and respiratory rates than larger mammals.
+
+----------------------------------------------------------------
+
+3.2 BIRDS
+
+Birds have very high metabolic rates and are extremely sensitive to stress.
+
+Heart Rate (BPM):
+- Chicken: 250–300
+- Pigeon: 140–600
+- Sparrow: 500–900
+
+Respiratory Rate (breaths per minute):
+- Chicken: 15–30
+- Pigeon: 20–40
+- Sparrow: 30–60
+
+Body Temperature:
+- Typical avian body temperature ranges between 40.0–42.0°C
+
+Sudden changes in vital signs in birds often indicate severe stress or illness.
+
+----------------------------------------------------------------
+
+3.3 REPTILES (ECTOTHERMIC ANIMALS)
+
+Reptile vital signs depend heavily on environmental temperature.
+
+Heart Rate (BPM):
+- Snake: 10–40
+- Lizard: 30–70
+- Turtle: 15–40
+
+Preferred Body Temperature Ranges (°C):
+- Snake: 24–32
+- Lizard: 26–35
+- Turtle: 22–30
+
+Respiratory rates are generally low and variable. Interpretation must always consider ambient temperature and recent activity.
+
+----------------------------------------------------------------
+
+4. SEVERITY CLASSIFICATION LOGIC
+
+Deviation from normal ranges is categorized as follows:
+- Normal: Within reference range
+- Mild abnormality: 10–15% deviation from normal
+- Moderate abnormality: 15–30% deviation
+- Critical abnormality: More than 30% deviation or sudden unexplained changes
+
+Overall severity increases when multiple vital signs are abnormal simultaneously.
+
+----------------------------------------------------------------
+
+5. CONTEXTUAL FACTORS AFFECTING INTERPRETATION
+
+Vital signs must be interpreted with consideration of:
+- Physical activity level
+- Stress or fear response
+- Environmental temperature
+- Species-specific metabolism
+- Measurement timing and accuracy
+- Sensor placement and reliability
+
+----------------------------------------------------------------
+
+6. LIMITATIONS OF VITAL SIGN ANALYSIS
+
+- Vital signs alone cannot confirm a diagnosis
+- Individual baseline variation exists
+- Animals often hide symptoms until conditions are severe
+- This knowledge supports risk assessment, not clinical decision-making
+
+----------------------------------------------------------------
+
+7. SAFETY AND DISCLAIMER
+
+This knowledge base is intended for informational and monitoring purposes only. It does not replace professional medical or veterinary evaluation, diagnosis, or treatment.

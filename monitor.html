@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifecycle Monitoring Dashboard | IBM Enterprise Solution</title>
+    <link rel="stylesheet" href="monitor.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Lifecycle Monitoring Platform</a>
+            <ul class="nav-links">
+                <li><a href="index.html">← Back to Home</a></li>
+                <li><a href="index.html#features">Features</a></li>
+                <li><a href="index.html#technology">Technology</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dashboard Header -->
+    <section class="dashboard-header">
+        <div class="header-container">
+            <h1>Lifecycle Monitoring Dashboard</h1>
+            <p>
+                Interact with our agent-based monitoring system powered by IBM Watson Orchestrate. 
+                Provide health indicators and receive comprehensive assessments with transparent reasoning.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Dashboard -->
+    <div class="dashboard-container">
+        <!-- Left Column: Instructions and Information -->
+        <div class="left-column">
+            <!-- Instruction Panel -->
+            <div class="card instruction-panel">
+                <div class="card-header">
+                    <h2 class="card-title">How to Use</h2>
+                </div>
+                <div class="card-content">
+                    <p>Use the chat interface to provide health monitoring data. The system will analyze the information using specialized agents and return a comprehensive assessment.</p>
+                    
+                    <div class="example-input">
+                        <strong>Example Input Format:</strong>
+                        <p>"Monitor my 3-month-old infant:"</p>
+                        <p>• Heart rate: 145 bpm</p>
+                        <p>• Respiratory rate: 38 breaths/min</p>
+                        <p>• Temperature: 37.2°C</p>
+                        <p>• Sleep: 14 hours in last 24h</p>
+                        <p>• Activity: Normal movement, responsive</p>
+                        <p>• Context: No recent illness, feeding well"</p>
+                    </div>
+                    
+                    <div class="status-badge">System Active</div>
+                </div>
+            </div>
+
+            <!-- Data Analysis Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">What We Analyze</h2>
+                </div>
+                <div class="card-content">
+                    <ul class="info-list">
+                        <li>
+                            <div>
+                                <strong>Vital Signs:</strong> Heart rate, respiratory rate, temperature, and oxygen saturation analyzed against age and species-specific norms
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Sleep Patterns:</strong> Duration, quality, and consistency evaluated based on developmental stage and circadian rhythm expectations
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Activity Levels:</strong> Movement patterns, responsiveness, and behavioral indicators assessed for age-appropriate engagement
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Contextual Factors:</strong> Age, species, recent changes, environmental conditions, and baseline health status for normalization
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Agent Process Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Agent-Based Analysis</h2>
+                </div>
+                <div class="card-content">
+                    <p>Your input is processed by four specialized agents working in coordination:</p>
+                    <ul class="info-list">
+                        <li>
+                            <div>
+                                <strong>Vital Signs Analysis Agent:</strong> Evaluates cardiovascular and respiratory metrics against medical guidelines
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Sleep Cycle Evaluation Agent:</strong> Assesses sleep duration and quality based on developmental norms
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Activity & Mobility Agent:</strong> Analyzes movement patterns and behavioral responsiveness
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <strong>Context & Normalization Agent:</strong> Adjusts assessments based on individual factors and circumstances
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tips Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Tips for Best Results</h2>
+                </div>
+                <div class="card-content">
+                    <ul class="tips-list">
+                        <li><strong>Be Specific:</strong> Include exact measurements and timeframes when possible</li>
+                        <li><strong>Provide Context:</strong> Mention age, species, recent changes, or unusual circumstances</li>
+                        <li><strong>Include All Indicators:</strong> The more complete your data, the more accurate the assessment</li>
+                        <li><strong>Note Patterns:</strong> Describe trends or changes over time if relevant</li>
+                        <li><strong>Emergency Situations:</strong> This system is for monitoring only—contact emergency services for urgent medical needs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Chat Interface -->
+        <div class="right-column">
+            <div class="chat-container">
+                <div class="chat-header">
+                    <h2>IBM Watson Orchestrate Interface</h2>
+                    <p>Powered by agent-based decision orchestration</p>
+                </div>
+                <div class="chat-body">
+                    <!-- Watson Orchestrate Chat will embed here -->
+                    <div id="wxo-chat-root"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- IBM Watson Orchestrate Integration Script -->
+    <script>
+      window.wxOConfiguration = {
+        orchestrationID: "91cc26f3835346bba9c42a359ef2d96a_54555be1-689e-4598-a1f1-303869486394",
+        hostURL: "https://us-south.watson-orchestrate.cloud.ibm.com",
+                rootElementID: "wxo-chat-root",
+        deploymentPlatform: "ibmcloud",
+        crn: "crn:v1:bluemix:public:watsonx-orchestrate:us-south:a/91cc26f3835346bba9c42a359ef2d96a:54555be1-689e-4598-a1f1-303869486394::",
+        chatOptions: {
+            agentId: "8ff644b1-a367-4171-9b8d-65dc1ceea67d", 
+            agentEnvironmentId: "b3f38a01-c979-4962-ab62-94014dc517a7",
+        }
+      };
+      setTimeout(function () {
+        const script = document.createElement('script');
+        script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+        script.addEventListener('load', function () {
+            wxoLoader.init();
+        });
+        document.head.appendChild(script);
+      }, 0);                     
+    </script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+SLEEP CYCLE EVALUATION – KNOWLEDGE BASE
+
+1. OVERVIEW OF SLEEP AND BIOLOGICAL RHYTHMS
+Sleep is a biologically essential process that supports physical recovery, cognitive function, immune regulation, and emotional stability. Sleep requirements and patterns vary significantly by species, age, and developmental stage. Disruptions in sleep duration, timing, or quality can indicate stress, fatigue, discomfort, illness, or environmental disturbance.
+
+Sleep quality is influenced by:
+- Total sleep duration
+- Sleep continuity (fragmentation)
+- Sleep timing (circadian alignment)
+- Depth of sleep
+- Environmental and psychological factors
+
+----------------------------------------------------------------
+
+2. HUMAN SLEEP REQUIREMENTS BY AGE
+
+2.1 RECOMMENDED DAILY SLEEP DURATION (HUMANS)
+
+Age Group and Normal Sleep Duration:
+- Newborn (0–3 months): 14–17 hours
+- Infant (4–11 months): 12–15 hours
+- Toddler (1–2 years): 11–14 hours
+- Preschool (3–5 years): 10–13 hours
+- Child (6–13 years): 9–11 hours
+- Teen (14–17 years): 8–10 hours
+- Adult (18–64 years): 7–9 hours
+- Older Adult (65+ years): 7–8 hours
+
+Consistent deviation below recommended ranges increases the risk of fatigue, stress, and impaired functioning.
+
+----------------------------------------------------------------
+
+2.2 HUMAN SLEEP ARCHITECTURE
+
+Human sleep consists of repeated cycles (~90 minutes each) composed of:
+- Non-REM Stage 1 (light sleep)
+- Non-REM Stage 2 (stable sleep)
+- Non-REM Stage 3 (deep sleep)
+- REM sleep (dreaming and cognitive processing)
+
+Healthy adults typically experience 4–6 full sleep cycles per night.
+
+----------------------------------------------------------------
+
+2.3 INDICATORS OF POOR SLEEP QUALITY (HUMANS)
+
+- Sleep duration below age-based recommendations
+- Frequent awakenings or fragmented sleep
+- Reduced deep sleep duration
+- Reduced REM sleep
+- Delayed sleep onset (>30 minutes)
+- Irregular sleep schedules
+
+Chronic poor sleep may indicate stress, anxiety, discomfort, or underlying health issues.
+
+----------------------------------------------------------------
+
+3. ANIMAL SLEEP PATTERNS AND REQUIREMENTS
+
+Sleep behavior in animals varies widely depending on species, predator-prey status, and metabolic rate.
+
+----------------------------------------------------------------
+
+3.1 MAMMALS
+
+Typical Daily Sleep Duration:
+- Elephant: 2–6 hours
+- Horse: 4–7 hours
+- Cow: 4–6 hours
+- Dog: 12–14 hours (puppies up to 18)
+- Cat: 12–16 hours
+- Rabbit: 8–10 hours
+- Mouse: 12–14 hours
+
+Carnivores and small mammals generally sleep more than large herbivores.
+
+----------------------------------------------------------------
+
+3.2 BIRDS
+
+Birds exhibit unique sleep patterns including unihemispheric sleep.
+
+Typical Sleep Duration:
+- Chicken: 8–10 hours
+- Pigeon: 10–12 hours
+- Sparrow: 9–12 hours
+
+Birds are highly sensitive to light exposure and environmental disturbances.
+
+----------------------------------------------------------------
+
+3.3 REPTILES
+
+Reptiles do not have sleep cycles identical to mammals but exhibit rest states.
+
+Typical Rest Duration:
+- Snake: 10–16 hours
+- Lizard: 8–12 hours
+- Turtle: 6–10 hours
+
+Rest duration is strongly influenced by ambient temperature.
+
+----------------------------------------------------------------
+
+4. SLEEP QUALITY CLASSIFICATION LOGIC
+
+Sleep quality assessment considers:
+- Total sleep duration vs expected range
+- Sleep fragmentation frequency
+- Consistency of sleep timing
+- Activity during expected rest periods
+
+Classification:
+- Normal: Duration and pattern within expected range
+- Mild Disruption: Slight reduction or irregular timing
+- Moderate Disruption: Consistent deficiency or fragmentation
+- Severe Disruption: Major deviation or prolonged sleep deprivation
+
+----------------------------------------------------------------
+
+5. STRESS, FATIGUE, AND DISCOMFORT INDICATORS
+
+Possible indicators include:
+- Reduced sleep duration
+- Frequent awakenings
+- Shifted sleep timing
+- Excessive sleep (hypersomnia)
+- Increased restlessness during sleep
+
+In animals, sudden changes in sleep behavior often indicate environmental stress or illness.
+
+----------------------------------------------------------------
+
+6. CONTEXTUAL FACTORS AFFECTING SLEEP
+
+Sleep interpretation must consider:
+- Age and developmental stage
+- Species-specific behavior
+- Light exposure and circadian cues
+- Environmental noise
+- Temperature and comfort
+- Recent activity and stressors
+
+----------------------------------------------------------------
+
+7. LIMITATIONS OF SLEEP ANALYSIS
+
+- Sleep duration alone does not indicate sleep quality
+- Individual baseline differences exist
+- Animal sleep is harder to measure precisely
+- External disturbances may cause temporary disruption
+
+----------------------------------------------------------------
+
+8. SAFETY AND DISCLAIMER
+
+This knowledge base supports sleep pattern evaluation and risk identification only. It does not provide medical or veterinary diagnosis or treatment and should not replace professional evaluation when sleep disruption is severe or persistent.
