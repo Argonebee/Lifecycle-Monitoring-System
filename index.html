@@ -392,6 +392,26 @@
     </style>
 </head>
 <body>
+    <script>
+  window.wxOConfiguration = {
+    orchestrationID: "91cc26f3835346bba9c42a359ef2d96a_54555be1-689e-4598-a1f1-303869486394",
+    hostURL: "https://us-south.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:us-south:a/91cc26f3835346bba9c42a359ef2d96a:54555be1-689e-4598-a1f1-303869486394::",
+    chatOptions: {
+        agentId: "8ff644b1-a367-4171-9b8d-65dc1ceea67d", 
+    }
+  };
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+        wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);                     
+</script>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
